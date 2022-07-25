@@ -1,0 +1,148 @@
+.logo {
+    width: 10vw;
+    margin-left: 50px;
+    padding: 1em;
+  }
+ 
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: none;
+  }
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .nav-link a {
+      float: none;
+      width: 100%;
+    }
+  }
+  .main{
+    display: inline-flex;
+  }
+  #nav-bar{
+    color: white;
+    margin-left: 1200px;
+  }
+  .nav-link{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+  }
+ #header-img{
+    width: 35px;
+ }
+.com-name{
+    font-size: 24px;
+    margin-left: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+form{
+    margin-top: 2%;
+    margin-left: 42%;
+}
+h2{
+    margin-top: 10%;
+    text-align: center;
+}
+#email{
+    width: 30%;
+    height: 20px;
+}
+#submit{
+    display: block;
+    margin-top: 7px;
+    margin-left: 50px;
+    background-color: lightblue;
+    border: none;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-style: italic;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    display: block;
+    padding-top: 5%;
+    padding-right: 2%;
+}
+.p1{
+   padding-top: 5.5%;
+}
+.p2{
+    padding-top: 5.5%;
+ }
+ .p3{
+    padding-top: 5.5%;
+ }
+ #demonstration{
+    width: 50%;
+    padding-left: 33%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ #pricing{
+    width: 20%;
+    position: relative;
+ }
+ .first{
+    padding-left: 10%;
+    background-color: white;
+ }
+ .second{
+    padding-left: 40%;
+    background-color: white;
+ }
+ .third{
+    padding-left: 70%;
+    background-color: white;
+ }
+#select{
+    margin-top: 7px;
+    margin-left: 40%;
+    background-color: lightblue;
+    border: none;
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-style: italic;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+footer{
+    background-color: gray;
+}
+fieldset{
+    
+}
+#name{
+    font-size: 20px;
+    background-color: lightcoral;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+}
+#price{
+    font-weight: bold;
+    font-size: 18px;
+}
