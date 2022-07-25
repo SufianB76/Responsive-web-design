@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css" />
+        <h1 id="title">
+            Survey Form
+        </h1>
+        <p id="description">
+            A short survey about your food preference
+        </p>
+    </head>
+    <body>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label">
+                    Name
+                    <input id="name" type="text" placeholder="Enter your name"
+                        required/>
+                </label>
+                <label id="email-label">
+                    Email
+                    <input id="email" type="email" placeholder="Enter your email" required/>
+                </label>
+                <label id="number-label">
+                    Age
+                    <input id="number" type="number" min="18" max="100"
+                        placeholder="number" />
+                </label>
+                <label>
+                    Which option best describes your taste?
+                    <select id="dropdown">
+                        <option>Select Your Preference</option>
+                        <option>Sour</option>
+                        <option>Salty</option>
+                        <option>Bitter</option>
+                        <option>Sweet</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+                <label>
+                    Would you be willing to recommend this survey to a friend?
+                    <label>
+                        <input type="Radio" value="1" name="recommend"
+                            class="inline" /> Definitely
+                    </label>
+                    <label><input type="Radio" value="2" name="recommend"
+                            class="inline" /> Maybe</label>
+                    <label><input type="Radio" value="3" name="recommend"
+                            class="inline" /> Not Sure</label>
+                    <label>Favorite meal of the day</label>
+                    <select>
+                        <option>Select an option</option>
+                        <option>Breakfast</optiom>
+                        <option>Lunch</option>
+                        <option>Dinner</option>
+                    </select>
+                    <label>
+                        What do you like eating the most?
+                    </label>
+                    <label>
+                        <input type="checkbox" value="1" class="inline" />
+                        Vegetables
+                    </label>
+                    <label>
+                        <input type="checkbox" value="2" class="inline" />
+                        Fruits
+                    </label>
+                    <label>
+                        <input type="checkbox" value="3" class="inline" />
+                        Grains,Beans and Nuts
+                    </label>
+                    <label>
+                        <input type="checkbox" value="4" class="inline" />
+                        Meat and Poultry
+                    </label>
+                    <label>
+                        <input type="checkbox" value="5" class="inline" />
+                        Fish and Seafood
+                    </label>
+                    <label>
+                        <input type="checkbox" value="6" class="inline" />
+                        Dairy Foods
+                    </label>
+                    <label>
+                        Additional foods:
+                        <textarea rows="3" cols="30" placeholder="Type here..."></textarea>
+                    </label>
+                </fieldset>
+                <input id="submit" type="submit" value="Submit" />
+            </form>
+        </body>
+    </html>
